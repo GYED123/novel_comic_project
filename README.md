@@ -34,28 +34,36 @@ novel_comic_project/
 ├── pyproject.toml         # 📦 项目配置文件
 ├── requirements.txt       # 📦 依赖列表
 └── README.md
-
+```
+```
 🚀 快速开始
 1. 环境准备
 确保你的环境中有 Python 3.8 或以上版本。
+```
+```Bash
 # 克隆项目到本地
 git clone [https://github.com/GYED123/novel_comic_project.git](https://github.com/GYED123/novel_comic_project.git)
 cd novel_comic_project
-
 # 安装依赖
 pip install -r requirements.txt
+```
 
+```
 2. 配置 API Key
 你需要一个 Google Gemini 的 API Key。如果没有，请前往 Google AI Studio 申请。
+```
 
 Linux / macOS / Google Colab:
-
+```Bash
 export GOOGLE_API_KEY="你的_API_KEY_粘贴在这里"
-
+```
+```
 Windows (PowerShell):
+```
 
+```PowerShell
 $env:GOOGLE_API_KEY="你的_API_KEY_粘贴在这里"
-
+```
 3. 准备数据
 小说文本：将你要转换的小说内容放入 data/ 目录（例如 data/novel.txt）。
 
