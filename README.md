@@ -34,11 +34,10 @@ novel_comic_project/
 ├── pyproject.toml         # 📦 项目配置文件
 ├── requirements.txt       # 📦 依赖列表
 └── README.md
+
 🚀 快速开始
 1. 环境准备
 确保你的环境中有 Python 3.8 或以上版本。
-
-Bash
 
 # 克隆项目到本地
 git clone [https://github.com/GYED123/novel_comic_project.git](https://github.com/GYED123/novel_comic_project.git)
@@ -53,12 +52,9 @@ pip install -r requirements.txt
 
 Linux / macOS:
 
-Bash
-
 export GOOGLE_API_KEY="你的_API_KEY_粘贴在这里"
 Windows (PowerShell):
 
-PowerShell
 
 $env:GOOGLE_API_KEY="你的_API_KEY_粘贴在这里"
 3. 准备数据
@@ -71,13 +67,10 @@ $env:GOOGLE_API_KEY="你的_API_KEY_粘贴在这里"
 4. 运行生成
 (注意：请根据实际入口文件路径调整命令，以下假设入口在 src/main.py)
 
-Bash
 
 python src/main.py
 🧩 输出示例
 程序运行完成后，会在 output/ 目录下生成 generated_comic_data.json。结构如下：
-
-JSON
 
 {
   "panels": [
