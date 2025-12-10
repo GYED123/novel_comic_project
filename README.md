@@ -34,3 +34,81 @@ novel_comic_project/
 ├── pyproject.toml         # 📦 项目配置文件
 ├── requirements.txt       # 📦 依赖列表
 └── README.md
+🚀 快速开始
+1. 环境准备
+确保你的环境中有 Python 3.8 或以上版本。
+
+Bash
+
+# 克隆项目到本地
+git clone [https://github.com/GYED123/novel_comic_project.git](https://github.com/GYED123/novel_comic_project.git)
+cd novel_comic_project
+
+# 安装依赖
+pip install -r requirements.txt
+# 或者使用 poetry (如果有)
+# poetry install
+2. 配置 API Key
+你需要一个 Google Gemini 的 API Key。如果没有，请前往 Google AI Studio 申请。
+
+Linux / macOS:
+
+Bash
+
+export GOOGLE_API_KEY="你的_API_KEY_粘贴在这里"
+Windows (PowerShell):
+
+PowerShell
+
+$env:GOOGLE_API_KEY="你的_API_KEY_粘贴在这里"
+3. 准备数据
+小说文本：将你要转换的小说内容放入 data/novel.txt（或在运行代码时指定路径）。
+
+角色参考（可选）：将主要角色的图片放入 images/characters/，文件名最好与小说中人名一致（如 Alice.png）。
+
+场景/道具参考（可选）：将特殊设定的图片放入 images/terms/。
+
+4. 运行生成
+(注意：请根据实际入口文件路径调整命令，以下假设入口在 src/main.py)
+
+Bash
+
+python src/main.py
+🧩 输出示例
+程序运行完成后，会在 output/ 目录下生成 generated_comic_data.json。结构如下：
+
+JSON
+
+{
+  "panels": [
+    {
+      "id": 1,
+      "scene_description": "昏暗的废弃仓库，光线从破窗射入，尘埃飞舞。",
+      "characters": ["李明", "神秘人"],
+      "dialog": "李明：'你到底是谁？'",
+      "action": "李明紧握着手中的手电筒，警惕地盯着前方。",
+      "camera_angle": "低角度仰视",
+      "visual_prompt": "cinematic shot, low angle, dark abandoned warehouse, dust particles in light beams, a young man holding a flashlight looking tense, anime style, cel shading"
+    }
+  ]
+}
+🛠️ 二次开发
+本项目代码结构清晰，易于扩展：
+
+修改 src/comic_generator.py 中的 Prompt 模板，可以调整生成风格（如：日漫风、美漫风）。
+
+在 src/api_client.py 中可以更换为 Gemini 的其他模型版本（如 gemini-1.5-flash 以获得更快的速度）。
+
+📝 TODO
+[x] 文本分镜生成
+
+[x] 多模态图片理解
+
+[ ] 接入 Stable Diffusion API 自动生图
+
+[ ] Web 可视化界面 (Gradio/Streamlit)
+
+[ ] 支持长篇小说自动切分处理
+
+📄 License
+本项目采用 MIT License 开源。欢迎 Star ⭐ 和 Fork！
