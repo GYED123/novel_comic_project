@@ -1,102 +1,36 @@
-Novel Comic Generator
+# Novel Comic Generator (小说漫改辅助工具)
 
-利用 Google Gemini API 将小说自动转换为漫画脚本与分镜描述。
-本项目能够自动解析小说文本、拆分分镜，并为每个分镜生成视觉描述，便于后续图像生成（DALL-E / Stable Diffusion 等）。
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Gemini API](https://img.shields.io/badge/Google-Gemini%20API-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-目标：只需要一份小说文本，本工具就能帮助你生成完整的“漫画脚本 + 画面描述”。
+**Novel Comic Generator** 是一个利用 Google Gemini API 强大的多模态能力，将小说文本自动转换为**漫画脚本**与**分镜描述**的辅助开发工具。
 
-✨ Features
+只需要提供一段小说文本，本工具就能为你生成结构化的分镜数据（包含画面描述、台词、角色站位等），可以直接对接 Stable Diffusion、Midjourney 或 DALL-E 进行漫画绘制。
 
-自动解析小说文本 → 漫画分镜结构
+## ✨ 主要功能
 
-自动生成角色 + 场景图像描述
+- 📚 **自动分镜解析**：智能识别小说中的场景切换、对话和动作，自动拆分为标准漫画分镜。
+- 🖼️ **AI 画面描述生成**：为每个分镜生成详细的 Prompt（提示词），包含镜头角度、光影氛围。
+- 👥 **角色一致性辅助**：支持读取本地角色立绘（Character Sheet），让 AI 生成时参考特定的人物特征。
+- 🧩 **多模态支持**：基于 Gemini Vision 能力，可理解术语图示和参考图。
+- 💾 **结构化输出**：结果保存为标准 JSON 格式，便于二次开发或直接导入漫画生成工作流。
 
-支持角色立绘、术语演示图加入模型输入
+## 📂 项目结构
 
-基于 Gemini Text + Vision 多模态能力
-
-可灵活扩展其他模型
-
-结果存储为 JSON（可供漫画生成器进一步使用）
-
-📦 Project Structure
+```text
 novel_comic_project/
-├── api_client.py
-├── utils.py
-├── comic_generator.py
-├── main.py
-├── novel.txt
-├── images/
-│   ├── characters/
-│   └── terms/
-└── output/
-    └── generated_comic_data.json
-
-🔧 Installation
-pip install google-generativeai Pillow
-
-🔑 API Key
-export GOOGLE_API_KEY="your_api_key_here"
-
-
-Colab 用户可通过左侧 “🔑 Secrets” 设置 GOOGLE_API_KEY。
-
-📥 Prepare Input Files
-小说文本
-novel_comic_project/novel.txt
-
-角色立绘示例
-novel_comic_project/images/characters/Sir_Reginald.png
-
-术语示例
-novel_comic_project/images/terms/Shadow_Serpent.jpg
-
-🚀 Run
-python novel_comic_project/main.py
-
-
-将生成：
-
-novel_comic_project/output/generated_comic_data.json
-
-🧩 Output Format
-{
-  "panels": [
-    {
-      "scene": "...",
-      "dialog": "...",
-      "characters": ["A","B"],
-      "terms": ["Shadow_Serpent"],
-      "generated_image_description": "..."
-    }
-  ]
-}
-
-🧠 API Example
-from novel_comic_project import api_client
-
-text = api_client.generate_text_content(
-    "写一个关于宇宙飞船失事的故事。",
-    model_name="gemini-1.5-pro"
-)
-
-multimodal = api_client.generate_multimodal_content(
-    "描述这张图片。",
-    image_list,
-    model_name="gemini-1.5-pro-vision"
-)
-
-🌟 Next Steps (TODO)
-Feature	状态
-文本分镜生成	✔ Done
-多模态提示生成	✔ Done
-图片生成 (Stable Diffusion / DALL-E)	⏳
-Web 漫画阅读器	⏳
-Demo Notebook	⏳
-📘 License
-
-MIT License
-
-⭐ Star
-
-欢迎给项目点个 ⭐ 支持一下！
+├── data/                  # 📂 存放输入的小说文本文件
+├── images/                # 📂 存放参考图片
+│   ├── characters/        #     - 角色立绘/设定图
+│   └── terms/             #     - 专有名词/道具/场景参考图
+├── output/                # 📂 存放生成的 JSON 结果
+├── scripts/               # 📂 辅助脚本或入口文件
+├── src/                   # 📂 核心源代码
+│   ├── api_client.py      #     - Gemini API 调用封装
+│   ├── comic_generator.py #     - 漫画生成逻辑
+│   └── utils.py           #     - 工具函数
+├── .gitignore
+├── pyproject.toml         # 📦 项目配置文件
+├── requirements.txt       # 📦 依赖列表
+└── README.md
