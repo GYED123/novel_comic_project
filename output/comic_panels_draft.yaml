@@ -1,0 +1,214 @@
+- panel_number: 1
+  scene_description: 树国海滨小城橡树湾的港口，晨曦未露，但已灯火通明。高大的吊臂隐约可见，船只停泊，一片繁忙的剪影。
+  characters: []
+  dialogue: []
+- panel_number: 2
+  scene_description: 港口局部特写，搬运工们在昏黄的灯光下搬运货物，发出粗犷的吆喝声。空气中弥漫着海水的咸湿与木材的清香。
+  characters:
+  - 搬运工
+  dialogue: []
+- panel_number: 3
+  scene_description: 高大的吊臂如同沉睡的巨兽，在昏黄的灯光下，缓慢而坚定地将一捆捆粗壮的木材吊上停泊的货船。
+  characters: []
+  dialogue: []
+- panel_number: 4
+  scene_description: 港口喧嚣的人群中，麟奈狸的身影显得有些格格不入。他穿着朴素布衣，半圆的毛茸茸兽耳引人注目。他眼神深邃，沉稳地观察着周围。
+  characters:
+  - 麟奈狸
+  dialogue: []
+- panel_number: 5
+  scene_description: 麟奈狸沿着湿滑的石板路，不紧不慢地走向港口货物调动中心，背影平静而坚定。
+  characters:
+  - 麟奈狸
+  dialogue: []
+- panel_number: 6
+  scene_description: 港口货物调动中心，一座由巨大原木搭建的低矮建筑。饱经风霜的木墙上爬满了海藻与藤蔓。门前，一位辉妖守卫打着哈欠，目光慵懒地扫过进出的人。
+  characters:
+  - 辉妖守卫
+  dialogue: []
+- panel_number: 7
+  scene_description: 调动中心内部，人声鼎沸。木材商、船主和货运代理们挤满了不大的空间，争吵与讨价还价声此起彼伏。麟奈狸从容地走入其中。
+  characters:
+  - 麟奈狸
+  - 木材商
+  - 船主
+  - 货运代理
+  dialogue: []
+- panel_number: 8
+  scene_description: 麟奈狸走到一扇敞开的木窗前。窗后坐着一位头发花白的基斯卡老者，戴着小巧的铜框眼镜，正用鹅毛笔在厚重账簿上快速记录。
+  characters:
+  - 麟奈狸
+  - 基斯卡老者
+  dialogue: []
+- panel_number: 9
+  scene_description: 麟奈狸清了清嗓子，眼神沉稳地看着老者。
+  characters:
+  - 麟奈狸
+  dialogue:
+  - character: 麟奈狸
+    line: 我有一份委托。
+- panel_number: 10
+  scene_description: 老者抬起头，浑浊的目光在麟奈狸脸上停留片刻，随即又落回账簿，示意他继续。麟奈狸从怀中掏出暗金色兽族妖侠纹耀和一卷麻绳捆扎的密令。
+  characters:
+  - 麟奈狸
+  - 基斯卡老者
+  dialogue: []
+- panel_number: 11
+  scene_description: 特写画面：暗金色的兽族妖侠纹耀，以及用厚重羊皮纸卷成、加盖树国皇家印章的密令。
+  characters:
+  - 麟奈狸
+  dialogue: []
+- panel_number: 12
+  scene_description: 老者瞥了一眼纹耀，目光略有波动。他缓慢地接过密令，小心翼翼地解开麻绳，展开羊皮纸。
+  characters:
+  - 基斯卡老者
+  - 麟奈狸
+  dialogue: []
+- panel_number: 13
+  scene_description: 麟奈狸静静地站着，仿佛与周围的喧嚣隔绝。他的视线穿透窗户，望向远处波澜不惊的海面，船只或扬帆，或归港。
+  characters:
+  - 麟奈狸
+  dialogue: []
+- panel_number: 14
+  scene_description: 老者细致地阅读密令，眉头渐渐蹙起。他将密令内容与一本更为古旧的册子进行比对，指尖轻划泛黄纸张。一刻钟后，他合上册子，将密令卷好递还给麟奈狸。
+  characters:
+  - 基斯卡老者
+  - 麟奈狸
+  dialogue: []
+- panel_number: 15
+  scene_description: 老者将密令递还给麟奈狸，声音沙哑，带着一丝不易察觉的敬畏。
+  characters:
+  - 基斯卡老者
+  - 麟奈狸
+  dialogue:
+  - character: 基斯卡老者
+    line: 神圣风国，紫藤号。
+  - character: 基斯卡老者
+    line: 甲板下层，临海的单人舱。您的船票已经备好。
+- panel_number: 16
+  scene_description: 老者从抽屉里取出一张制作粗糙的木牌，上面用墨笔写着“紫藤号”，递给了麟奈狸。
+  characters:
+  - 基斯卡老者
+  - 麟奈狸
+  dialogue: []
+- panel_number: 17
+  scene_description: 麟奈狸接过木牌，对着老者微微颔首，随即转身离开了调动中心。
+  characters:
+  - 麟奈狸
+  - 基斯卡老者
+  dialogue: []
+- panel_number: 18
+  scene_description: 麟奈狸走出调动中心，背影沉稳。画面上方浮现文字，暗示他将前往遥远的神圣风国，护送开启树国未来的“钥匙”。他内心隐藏着对使命的坚定。
+  characters:
+  - 麟奈狸
+  dialogue: []
+- panel_number: 19
+  scene_description: 正午时分，港口工人们午餐，码头稍显安静。麟奈狸走向停泊的“紫藤号”货船。
+  characters:
+  - 麟奈狸
+  dialogue: []
+- panel_number: 20
+  scene_description: “紫藤号”货船的全景。船身漆成深紫色，船帆卷起，像一只休憩的巨鸟。甲板上，零星几名船员正在检查缆绳。
+  characters:
+  - 船员
+  dialogue: []
+- panel_number: 21
+  scene_description: 一位身着老旧但整洁制服的船员迎向麟奈狸。他的手背上有一条显眼的旧伤疤。他便是大副花淞，脸上写满坚毅，眼神却老实而热心。
+  characters:
+  - 花淞
+  - 麟奈狸
+  dialogue: []
+- panel_number: 22
+  scene_description: 花淞客气地询问，目光在麟奈狸的平民装束和手中木牌上扫过。
+  characters:
+  - 花淞
+  - 麟奈狸
+  dialogue:
+  - character: 花淞
+    line: 阁下是？
+- panel_number: 23
+  scene_description: 麟奈狸递出木牌，神色平静地回答。
+  characters:
+  - 麟奈狸
+  - 花淞
+  dialogue:
+  - character: 麟奈狸
+    line: 旅客。
+- panel_number: 24
+  scene_description: 花淞接过木牌仔细辨认，脸上露出恍然大悟的神色，随即对麟奈狸露出友善的笑容，语气带着一丝恭敬。
+  characters:
+  - 花淞
+  - 麟奈狸
+  dialogue:
+  - character: 花淞
+    line: 原来是位大人，您请跟我来。我是花淞，这艘‘紫藤号’的大副。
+- panel_number: 25
+  scene_description: 麟奈狸声音依旧平稳，波澜不惊地回应。
+  characters:
+  - 麟奈狸
+  dialogue:
+  - character: 麟奈狸
+    line: 有劳。
+- panel_number: 26
+  scene_description: 花淞领着麟奈狸穿过堆满捆扎严实的木材的甲板，空气中弥漫着朴树清香。他们沿着船舷边的木梯下到甲板下层，光线变得暗淡，只有几盏鲸油灯发出微弱光芒。
+  characters:
+  - 花淞
+  - 麟奈狸
+  dialogue: []
+- panel_number: 27
+  scene_description: 花淞推开一扇厚重的木门，指着内部。舱室不大但很干净，一张窄床、小木桌和椅子，墙上开着一扇被木板遮盖的小舷窗。
+  characters:
+  - 花淞
+  - 麟奈狸
+  dialogue:
+  - character: 花淞
+    line: 这间就是您的舱室。
+- panel_number: 28
+  scene_description: 花淞热情地向麟奈狸解释舱室情况，并告知他热水食物会送来，以及如有需要可随时寻他。
+  characters:
+  - 花淞
+  - 麟奈狸
+  dialogue:
+  - character: 花淞
+    line: 我们主要运送木材，所以舱室不多，但胜在安静。从这里可以看到外面的海景，当然，等我们离港之后。
+  - character: 花淞
+    line: 热水和食物稍后会送到。阁下若有什么需要，我每日早晨会来这里检查货物，当然您也随时可以到甲板上来找我，如果您不介意的话。
+- panel_number: 29
+  scene_description: 麟奈狸走到床边，伸手摸了摸床单的质地。他转过身，对花淞再次表示感谢。
+  characters:
+  - 麟奈狸
+  - 花淞
+  dialogue:
+  - character: 麟奈狸
+    line: 多谢。
+- panel_number: 30
+  scene_description: 花淞识趣地告辞，关上舱门离开了舱室。
+  characters:
+  - 花淞
+  dialogue:
+  - character: 花淞
+    line: 那您先歇息，祝您旅途愉快。
+- panel_number: 31
+  scene_description: 舱室里只剩下麟奈狸一人，他小心收好密令，坐在床边闭上眼睛，感受着船身细微的摇晃，调整状态。
+  characters:
+  - 麟奈狸
+  dialogue: []
+- panel_number: 32
+  scene_description: 甲板上传来粗重的链条声，船锚被绞起。船体轻微震颤，“紫藤号”缓慢离开码头。橡树湾的喧嚣渐渐远去。
+  characters: []
+  dialogue: []
+- panel_number: 33
+  scene_description: 麟奈狸站起身，走到舷窗边，打开了遮挡的木板。一缕微弱的暮光穿透薄雾，映照在波光粼粼的海面上。
+  characters:
+  - 麟奈狸
+  dialogue: []
+- panel_number: 34
+  scene_description: 麟奈狸目光坚定地投向远方，那里是风国——他此行的终点。他的眼神中流露出对使命的坚定，以及对未来可能遭遇的一切的准备。
+  characters:
+  - 麟奈狸
+  dialogue: []
+- panel_number: 35
+  scene_description: “紫藤号”破开层层薄雾，驶向茫茫大海。麟奈狸的身影在船上，凝视着远方，海风呼啸，仿佛预示着元泱境界一场风起云涌的变革正在悄然酝酿。
+  characters:
+  - 麟奈狸
+  dialogue: []

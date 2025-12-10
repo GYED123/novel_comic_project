@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "novel-comic-project"
+version = "0.1.0"
+description = "Generate comic storyboards and image prompts from novel text."
+authors = [{ name = "Your Name" }]
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml",
+    "google-generativeai",  # 如果你用 Gemini
+    "Pillow"                # 如果后面要处理图片
+]

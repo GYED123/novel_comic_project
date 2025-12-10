@@ -1,0 +1,38 @@
+[
+  {
+    "panel_number": 1,
+    "scene_description": "树国海滨小城橡树湾的港口，晨曦未露，但已灯火通明。高大的吊臂隐约可见，船只停泊，一片繁忙的剪影。",
+    "characters": [],
+    "dialogue": [],
+    "generated_image_description": "A bustling pre-dawn port scene in Oak Bay, a vibrant coastal town within the Tree Kingdom. Tall cranes are indistinctly silhouetted against the dark twilight sky, while numerous ships are docked, forming a busy array of shapes. The entire harbor is brightly illuminated by a multitude of artificial lights—lanterns, building windows, and ship lights—casting a warm, dynamic glow. The expansive, dark sea stretches out beyond the harbor, dotted with distant, twinkling city lights along the coastline. Pre-dawn ambiance with no direct sunlight. Strong contrasts are created by the vibrant artificial illumination against the deep, rich blues and purples of the early morning sky. Long, hard-edged shadows define the forms of cranes, ships, and structures. A wide-angle, atmospheric shot, emphasizing the scale and bustling activity of the port, with a dramatic focus on the interplay of light and shadow. Hand-painted Gouache style, Cel-shading. Clear and sharp outlines, distinct color blocks, hard-edged shadows. No complex gradients, natural brushstrokes, rich details. High saturation, vibrant colors, poster color aesthetic.",
+    "generated_image_path": "output/comic_images/panel_001.png"
+  },
+  {
+    "panel_number": 2,
+    "scene_description": "港口局部特写，搬运工们在昏黄的灯光下搬运货物，发出粗犷的吆喝声。空气中弥漫着海水的咸湿与木材的清香。",
+    "characters": [
+      "搬运工"
+    ],
+    "dialogue": [],
+    "generated_image_description": "Close-up of burly porters, strong and muscular, vigorously moving heavy wooden crates and various cargo on a bustling port at night, one porter letting out a coarse shout. Their work attire is simple and robust, reminiscent of practical uniforms, with subtle veins visible on arms and necks from their strenuous effort. The dock is cluttered with stacked goods, ropes, and shipping equipment. The atmosphere is thick with the briny scent of the sea mingled with the fresh aroma of timber. Dramatically lit by dim, warm amber and yellow light from unseen industrial lamps, casting strong, hard-edged shadows. Dynamic medium shot, emphasizing raw physical labor and cargo details. Hand-painted Gouache style, Cel-shading, clear and sharp outlines, distinct color blocks, hard-edged shadows, no complex gradients, natural brushstrokes, rich details, high saturation, vibrant colors, poster color aesthetic.",
+    "generated_image_path": "output/comic_images/panel_002.png"
+  },
+  {
+    "panel_number": 3,
+    "scene_description": "高大的吊臂如同沉睡的巨兽，在昏黄的灯光下，缓慢而坚定地将一捆捆粗壮的木材吊上停泊的货船。",
+    "characters": [],
+    "dialogue": [],
+    "generated_image_description": "Giant industrial cranes, resembling colossal sleeping beasts, majestically hoist massive bundles of thick timber, slowly loading them onto a sturdy cargo ship firmly docked in an expansive industrial dockyard at night. The scene is illuminated by atmospheric, dim, warm yellow artificial lights, casting dramatic hard-edged shadows that emphasize the grand scale. A low-angle shot accentuates the immense size and imposing presence of the cranes and ship. Hand-painted Gouache style, Cel-shading, anime illustration, clear and sharp outlines, distinct color blocks, hard-edged shadows, no complex gradients, natural brushstrokes, rich details, high saturation, vibrant colors, poster color aesthetic.",
+    "generated_image_path": "output/comic_images/panel_003.png"
+  },
+  {
+    "panel_number": 4,
+    "scene_description": "港口喧嚣的人群中，麟奈狸的身影显得有些格格不入。他穿着朴素布衣，半圆的毛茸茸兽耳引人注目。他眼神深邃，沉稳地观察着周围。",
+    "characters": [
+      "麟奈狸"
+    ],
+    "dialogue": [],
+    "generated_image_description": "Linnaili, a young man with striking semi-circular fluffy beast ears, dressed in simple, unadorned cloth clothes. His deep, contemplative eyes calmly observe the chaotic port scene around him, a mysterious 'Maimen' symbol subtly present on his attire. He stands out, a quiet, observant figure amidst the noise. The background depicts a bustling, crowded port, filled with dock workers, merchants, and various people. Large cargo ships are docked, alongside stacks of crates and vibrant activity, all contributing to a sense of noisy commotion. Full body shot, focusing on Linnaili as the central, calm anchor amidst the dynamic, energetic crowd. Dramatic lighting emphasizes his serene presence, casting distinct shadows. The composition highlights the contrast between his quiet observation and the surrounding pandemonium. Hand-painted Gouache style, Cel-shading. Clear and sharp outlines, distinct color blocks, hard-edged shadows, no complex gradients, visible natural brushstrokes, rich intricate details. High saturation, vibrant colors, poster color aesthetic.",
+    "generated_image_path": "output/comic_images/panel_004.png"
+  }
+]
