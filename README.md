@@ -35,51 +35,54 @@ novel_comic_project/
 ├── requirements.txt       # 📦 依赖列表
 └── README.md
 ```
-```
+---
 🚀 快速开始
 1. 环境准备
 确保你的环境中有 Python 3.8 或以上版本。
-```
-```Bash
-# 克隆项目到本地
+---
+   ```bash
+   # 克隆项目到本地
 git clone [https://github.com/GYED123/novel_comic_project.git](https://github.com/GYED123/novel_comic_project.git)
 cd novel_comic_project
 # 安装依赖
 pip install -r requirements.txt
-```
+   ```
 
-```
+---
 2. 配置 API Key
 你需要一个 Google Gemini 的 API Key。如果没有，请前往 Google AI Studio 申请。
-```
-
 Linux / macOS / Google Colab:
-```Bash
+---
+
+
+```bash
 export GOOGLE_API_KEY="你的_API_KEY_粘贴在这里"
 ```
-```
 Windows (PowerShell):
-```
-
-```PowerShell
+```powerShell
 $env:GOOGLE_API_KEY="你的_API_KEY_粘贴在这里"
 ```
+---
+
 3. 准备数据
 小说文本：将你要转换的小说内容放入 data/ 目录（例如 data/novel.txt）。
-
 角色参考（可选）：将主要角色的图片放入 images/characters/，文件名最好与小说中人名一致（如 Alice.png）。
 
 场景/道具参考（可选）：将特殊设定的图片放入 images/terms/。
 
+---
+
 4. 运行生成
 请根据你的实际入口文件位置运行（通常在 src 或 scripts 文件夹下）：
 
+```bash
 # 示例命令 (请根据实际文件名调整)
 python src/main.py
+```
 
 🧩 输出示例
 程序运行完成后，会在 output/ 目录下生成 generated_comic_data.json。结构如下：
-
+```json
 {
   "panels": [
     {
@@ -93,6 +96,7 @@ python src/main.py
     }
   ]
 }
+```
 🛠️ 二次开发
 本项目代码结构清晰，易于扩展：
 
